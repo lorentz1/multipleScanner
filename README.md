@@ -9,22 +9,24 @@ Requisitos/requirements
 nmap
 sudo apt-get install nmap
 
-metodo de uso:
-chmod +x multipleScanner.sh
-sudo su 
-./multipleScanner list1.txt list2.txt
-list1(lista com os dominios)
+metodo de uso:\
+git clone https://github.com/lorentz1/multipleScanner \
+chmod +x multipleScanner.sh\
+sudo su\
+./multipleScanner list1.txt list2.txt\
+list1(lista com os dominios)\
 list2(lista que vai armazenar os resultados)
 
 English
 
-this scanner is designed to handle multiple domains and subdomains.
+This scanner is designed to handle multiple domains and subdomains.
 The scanner takes the domains from the first list (first parameter) and uses the ping command to capture the ip and uses nmap to analyze which ports are open and what services are running on the domain, then stores this result in the second list (second parameter)
 
-method of use:
-chmod + x multipleScanner.sh
-sudo su
-./multipleScanner example1.txt example2.txt
-example1(the list containing the domains)
+method of use:\
+git clone https://github.com/lorentz1/multipleScanner \
+chmod + x multipleScanner.sh\
+sudo su\
+./multipleScanner example1.txt example2.txt\
+example1(the list containing the domains)\
 example2(the list that saves the results)
 
